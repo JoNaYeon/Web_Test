@@ -1,0 +1,121 @@
+
+.parents_Position
+{
+    position: relative;
+    display: inline-block;
+
+    width: 100%;
+    
+    text-align: center;
+}
+.child_Position
+{
+    position: absolute;
+    display: inline-block;
+
+    text-align: center;
+}
+
+
+
+
+
+/* 로고 */
+.logo
+{
+    width: 100px; height: 100px;
+    top: 50%; left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+
+    z-index: 1;
+}
+.logoimg{
+    position: absolute;
+    display: inline-block;
+    
+    width: 100%; height: 100%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+/* 메뉴 */
+.menu_contain
+{
+    width: 30%; height: 100%;
+
+    text-align: center;
+}
+.menu_contain_left
+{
+    left: 10%;
+}
+.menu_contain_right
+{
+    right: 10%;
+}
+
+.menu_text
+{
+    color: black;
+    
+    font-size: 16px;
+    font-family: 'Source Serif 4', sans-serif;
+    
+    width: 50%; height: 100%;
+    margin-top: -8px;
+
+    text-align: center;
+}
+
+
+
+/* 이미지 */
+.image_fit
+{
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* 텍스트 */
+.text_HorisonList_left
+{
+    font-size: 14px;
+    font-family: 'Source Serif 4', sans-serif;
+
+    float: left;
+    padding: 10px;
+}
+.text_HorisonList_right
+{
+    font-size: 14px;
+    font-family: 'Source Serif 4', sans-serif;
+
+    float: right;
+    padding: 10px;
+}
+.text_HorisonList_center
+{
+    font-size: 14px;
+    font-family: 'Source Serif 4', sans-serif;
+    
+    line-height: 50%;
+}
+
+
+
+
+
+
+
+/* 메인 바텀 영역 */
+.bottom_menu
+{
+    right: 0;
+}

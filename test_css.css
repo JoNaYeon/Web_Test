@@ -1,0 +1,60 @@
+
+/* --------------------------------------------top bar style */
+div#top_bar{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+/* left menu */
+div#top_bar_leftmenu1{
+    left: 0%; top: 50%;
+}
+div#top_bar_leftmenu2{
+    right: 0%; top: 50%;
+}
+/* right menu */
+div#top_bar_rightmenu1{
+    left: 0%; top: 50%;
+}
+div#top_bar_rightmenu2{
+    right: 0%; top: 50%;
+}
+
+/* ----------------------------------------------body style */
+div#main_body{
+    background-color: rgb(255, 255, 255);
+    width: 100%; height: 100%;
+}
+div#main_body_list1{
+    width: 100%; height: 700px;      
+}
+div#main_body_list2{
+    width: 100%; height: 500px;      
+}
+div#main_body_list3{
+    width: 100%; height: 700px;
+}
+div#main_body_list4{
+    background-color: rgb(255, 255, 255);
+    width: 100%; height: 400px;
+}
+/* ------------------------------------------------bottom bar style */
+div#bottom_bar{
+    height: 300px;
+}
+div#bottom_bar_contect{
+    width: 100%;
+    margin-left: -50%;
+    
+    bottom: 0;  
+    margin-right: 20px;
+}
+div#bottom_bar_data{
+    width: 100%;;
+    margin-left: -50%;
+    
+    bottom: 0px;
+}
+div#bottom_bar_text{
+    bottom: 0;  
+}
